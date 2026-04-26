@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velcéra | Premium Skincare</title>
+    <meta name="description" content="Experience Velcéra—where scientific innovation meets the ultimate in prestige beauty and timeless skin health.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="glass-header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="logo.png" alt="Velcéra Logo" class="brand-logo" onerror="this.style.display='none'">
+            </div>
+            <div class="brand-name">VELCÉRA</div>
+            <div class="menu-container">
+                <button class="hamburger-btn" id="menuToggle" aria-label="Toggle menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Full Screen Menu Overlay -->
+    <nav class="fullscreen-menu" id="fullscreenMenu">
+        <div class="menu-links">
+            <a href="aboutvelcera.html">About Velcéra</a>
+            <a href="team.html">Team</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Typography Section -->
+        <section class="phd-section">
+            <h2 class="fade-in-text">We've a PhD for your every problem</h2>
+        </section>
+
+        <!-- Slider Section -->
+        <section class="slider-section">
+            <div class="slider-container" id="heroSlider">
+                <!-- Slider images injected via JS -->
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section">
+            <h2 class="section-title fade-in-up">Experience Velcéra</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- Products injected via JS -->
+                <div class="loader" style="position: relative; transform: none; left: auto; top: auto; width: 100%; text-align: center; margin: 2rem 0;">Loading Products...</div>
+            </div>
+        </section>
+
+        <!-- Brand Story Section -->
+        <section class="brand-story fade-in-up">
+            <p>
+                Velcéra defines the pinnacle of modern skincare, merging Swiss-inspired precision with rare botanical essences. Our high-performance formulas offer transformative results, catering to a global clientele that demands both luxury and efficacy. Experience a sophisticated, radiant glow with Velcéra—where scientific innovation meets the ultimate in prestige beauty and timeless skin health.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>Based On India Delivering to World.</p>
+                <p>We've a PhD for your every problem.</p>
+                <p>Premium Care</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/velcera.in/" target="_blank" rel="noopener noreferrer" class="instagram-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    <span>Follow Us</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <a href="https://polarithweb.github.io/" target="_blank" rel="noopener noreferrer" class="credit-link">
+                Website designed by Polarith Web
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

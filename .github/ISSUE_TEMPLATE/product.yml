@@ -1,0 +1,38 @@
+name: ✨ New Product
+description: Add a new product to the website
+title: "[Product Name]"
+labels: ["product"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill out the details below to add a new product to the Velcéra website. The title of this issue will be used as the Product Name.
+  - type: textarea
+    id: image
+    attributes:
+      label: Product Image
+      description: Upload a square image for the product. Drag and drop or paste your image here.
+      placeholder: "![image](https://...)"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Product Description
+      description: A luxurious description of the product.
+    validations:
+      required: true
+  - type: input
+    id: price
+    attributes:
+      label: Price
+      description: The price of the product (e.g., $150 or ₹5000).
+    validations:
+      required: true
+  - type: input
+    id: order_link
+    attributes:
+      label: Order Now Link
+      description: The full URL where the user can buy the product (e.g., https://wa.me/... or your store link).
+    validations:
+      required: true

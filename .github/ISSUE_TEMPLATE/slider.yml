@@ -1,0 +1,17 @@
+name: 🖼️ New Slider Image
+description: Add a new image to the main hero slider on the website
+title: "Slider Image: "
+labels: ["slider"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Upload the 16:9 ratio image below. It will automatically be fetched and displayed on the website's main slider.
+  - type: textarea
+    id: image
+    attributes:
+      label: Image Upload
+      description: Drag and drop or paste your image here. Ensure it's a 16:9 ratio for best results.
+      placeholder: "![image](https://...)"
+    validations:
+      required: true
